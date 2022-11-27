@@ -1,3 +1,10 @@
+/* Copyright (C) 2022 Aleksandar Tomić - All Rights Reserved
+ * You may use, distribute and modify this code under the
+ * terms of the GNU AGPL v3.0 license.
+ *
+ * You should have received a copy of the GNU AGPL v3.0 license with
+ * this file. If not, please write to: Kanduti, or visit : https://github.com/Kanduti/Album-playlister/blob/main/LICENSE
+*/
 #include <iostream>
 #include <fstream>
 #include <string>
