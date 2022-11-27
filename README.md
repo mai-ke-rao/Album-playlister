@@ -1,3 +1,1 @@
-# Album-playlister
-Splits album into individual songs accoriding to timestamp file. 
-Requires FFMPEG and can be used on Windows only.
+When providing path make sure it doesnt have quotation marks
