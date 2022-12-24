@@ -1,3 +1,3 @@
-Add path to FFMPEG folder to your system path environment variable!
+Requires FFMPEG, Add path to ffmpeg.exe to your system path environment variable!
 
 
