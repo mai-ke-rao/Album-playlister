@@ -20,7 +20,7 @@ void singular_timestamp(string line[70], string& odKad, string& doKad, int pos, 
 {
    // avoiding outOfRange
     if (pbuff > 1){
-            if(isdigit(line[i-1][pbuff-2])){ //some nigger put time stamps in parentasis
+            if(isdigit(line[i-1][pbuff-2])){ 
         odKad = line[i - 1].substr(pbuff - 2, wbuff + 2);
             }
             else {
