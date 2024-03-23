@@ -151,8 +151,10 @@ int main() {
             size_t pos = line[i].find(":");
             int w = 0;
 
-            //pos + w nam daje poziciju poslednjeg broja
-            while (isdigit(line[i][pos + w]) || isdigit(line[i][pos + w + 1]) || isdigit(line[i][pos + w + 4]) || isdigit(line[i][pos + w + 3]))
+           int lineSize = line[i].size();
+  //pos + w nam daje poziciju poslednjeg broja
+  //it is unsafe to access elements of array that are outside of allocated space
+  while ((lineSize <= (pos + w) ? false : isdigit(line[i][pos + w])) || (lineSize <= (pos + w + 1) ? false : isdigit(line[i][pos + w + 1])) || (lineSize <= (pos + w + 4) ? false : isdigit(line[i][pos + w + 4])) || (lineSize <= (pos + w + 3) ? false : isdigit(line[i][pos + w + 3])))
             {
                 w++;
             }
